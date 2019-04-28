@@ -54,16 +54,16 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md" />
     <None Include="strawberry.svg">
       <Filter>资源文件</Filter>
     </None>
+    <None Include="..\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="visual_studio.ico">
       <Filter>资源文件</Filter>
     </Image>
-    <Image Include="Screen.png">
+    <Image Include="..\Screen.png">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>

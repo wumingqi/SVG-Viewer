@@ -198,11 +198,11 @@
     <ResourceCompile Include="Resource.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md" />
+    <None Include="..\README.md" />
     <None Include="strawberry.svg" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Screen.png" />
+    <Image Include="..\Screen.png" />
     <Image Include="visual_studio.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
